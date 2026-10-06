@@ -1,0 +1,17 @@
+{
+  "name": "EMPRESA BX GB PISCO",
+  "short_name": "BX GB",
+  "description": "Portal interno de gestión: logística, limpieza, seguridad, autorizaciones y más.",
+  "lang": "es-PE",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#312e81",
+  "theme_color": "#312e81",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
