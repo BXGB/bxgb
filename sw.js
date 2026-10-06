@@ -1,15 +1,15 @@
 // Service worker: guarda la "carcasa" de la app para que abra rápido y muestre
 // un aviso si no hay internet. Las páginas de Google Apps Script no se guardan:
 // siempre se cargan en línea, así que todo lo que se registra va directo a las hojas.
-const VERSION = 'bxgb-v1';
+const VERSION = 'bxgb-v2';
 const ARCHIVOS = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './icons/icon-192.png',
-  './icons/icon-512.png',
-  './icons/maskable-512.png',
-  './icons/apple-touch-icon.png'
+  './icon-192.png',
+  './icon-512.png',
+  './maskable-512.png',
+  './apple-touch-icon.png'
 ];
 
 self.addEventListener('install', e => {
